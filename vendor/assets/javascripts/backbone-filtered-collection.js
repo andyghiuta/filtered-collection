@@ -174,7 +174,7 @@ THE SOFTWARE.
     ,removeModel: function(model, colleciton, options) {
       var at = this._mapping.indexOf(options.index);
       if (at > -1) {
-        this._forceRemoveModel(model, _.extend({index: at}, options));
+        this._forceRemoveModel(model, _.extend(options, {index: at}));
       }
       this.renumberMappings();
     }
