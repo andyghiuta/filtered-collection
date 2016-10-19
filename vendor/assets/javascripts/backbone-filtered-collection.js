@@ -211,6 +211,7 @@ THE SOFTWARE.
     }
 
     ,setFilter: function(newFilter, options) {
+      this.resortCollection();
       options || (options = {});
       if (newFilter === false) { newFilter = this.defaultFilter } // false = clear out filter
       this.collectionFilter = newFilter || this.collectionFilter || this.defaultFilter;
