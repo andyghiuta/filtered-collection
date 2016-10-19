@@ -1,6 +1,6 @@
 # Filtered Collection
 
-[![Build Status](https://travis-ci.org/dlikhten/filtered-collection.png?branch=master)](https://travis-ci.org/dlikhten/filtered-collection)
+[![Build Status](https://travis-ci.org/andyghiuta/filtered-collection.png?branch=master)](https://travis-ci.org/andyghiuta/filtered-collection)
 
 This is a simple filtered collection implemented using
 Backbone.Collection. The goal here is to create a collection which,
@@ -96,4 +96,4 @@ will be damn hard to detect.
 
 Also, no tab characters, 2 spaces only. Minifiers can handle this stuff for you.
 
-[1]: https://raw.github.com/dlikhten/filtered-collection/master/vendor/assets/javascripts/backbone-filtered-collection.js
+[1]: https://raw.github.com/andyghiuta/filtered-collection/master/vendor/assets/javascripts/backbone-filtered-collection.js
